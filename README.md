@@ -1,20 +1,20 @@
-# rise-landing-page
-An alternate rise landing page built with Next14, Shadcn, and Tailwind. Smooth scroll effect with Lenis.
+# Photography-portfolio-website
+A  Photography Portfolio website built with Next14, Shadcn, and Tailwind.
 
 # ☁️ Deployed link
-https://rise-landing-page.vercel.app/
+https://photography-portfolio-website-vert.vercel.app/
 
+Youtube:  
+https://youtu.be/yZnCe7VZHHI
 
-Youtube:  https://youtu.be/iEHbbCprtrw
-
-
-Figma:  https://www.figma.com/file/rN2oZL4j6bZLe7uYbocDG6/Landing-page-UI-%E2%80%94-Rise-Calendar-%E2%80%94-Web-to-Figma-(Community)?node-id=3401%3A7681&mode=dev
+Figma: https://www.figma.com/file/YSRcAhwjGh8cpuMP5gwOp9/Photographer-Portfolio-Website-UI-Template---Dark-Theme-%7C-Produce-UI-(Community)?type=design&node-id=18-8&mode=design&t=oYcDv5Ucak97Yz6H-0
 
 # 💻 Desktop View
-![screencapture-localhost-3000-2024-02-04-05_23_44](https://github.com/PiusLucky/rise-landing-page/assets/32282934/9f26426d-5b50-445c-86f6-046cda542392)
+![screencapture-photography-portfolio-website-vert-vercel-app-2024-01-07-16_53_03](https://github.com/PiusLucky/photography-portfolio-website/assets/32282934/186e7a3b-f8a0-41cc-afcc-58e8aeb7c966)
+
 
 # 📱 Mobile View
-![screencapture-localhost-3000-2024-02-04-05_24_24](https://github.com/PiusLucky/rise-landing-page/assets/32282934/beec3e6a-ea1a-48e2-8a8b-8a105fb4188c)
+![screencapture-photography-portfolio-website-vert-vercel-app-2024-01-07-16_53_25](https://github.com/PiusLucky/photography-portfolio-website/assets/32282934/a85fb121-3119-4205-b3f0-70b7e4dc3a31)
 
 # ⛏️ Installation
 To follow along the tutorial. Change to the starter branch  after cloning the repo.
@@ -29,11 +29,14 @@ npm install && npm run dev
 - Typescript
 - Shadcn
 - Tailwind
-- Lenis
 
 ## 🔓 Benefits
 - Mobile Responsiveness
 - Learn all the stack in one video
+
+## Appreciation
+All thanks to ProduceUI on  figma community
+https://www.figma.com/@produce_ui
 
 ## Author
 Built with love ❤️ by Pius Lucky https://luckypius.netlify.app/

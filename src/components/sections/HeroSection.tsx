@@ -1,28 +1,60 @@
+import { PORTFOLIO_OWNER_FULLNAME } from "@/lib/constant";
 import React from "react";
-import MainButton from "../common/MainButton";
-import { ChevronRight } from "lucide-react";
 
 function HeroSection() {
   return (
-    <section className="flex flex-col justify-center items-center mt-32 px-8 ">
-      <div className="bg-customDark py-3 px-4 inline-flex text-white rounded-full">
-        Announcing our Public Beta <ChevronRight />
-      </div>
-
-      <p className="text-[35.8px] md:text-[75.8px] text-center mt-8">
-        The calendar that works for you
-      </p>
-      <p className="text-[#706D79] font-semibold text-center my-4">
-        Rise helps you schedule, optimize and protect your day to give you more
-        time for what's important
-      </p>
-      <div className="mt-8">
-        <MainButton
-          text="Get Started"
-          classes="h-[56px] w-[163.52px]"
-          rightIconRoute="/images/chevron_right.svg"
+    <section>
+      <section className="flex justify-between md:items-center flex-col md:flex-row px-4 md:px-[6rem] gap-16">
+        <div>
+          <p className="text-customGray uppercase text-[1.375rem] font-[500]">
+            Stunning Photography by
+          </p>
+          <p className="uppercase font-[600] text-[2.5rem] md:text-[5rem] text-white md:w-[min-content] lg:w-[max-content]">
+            {PORTFOLIO_OWNER_FULLNAME}
+          </p>
+        </div>
+        <div className="hidden lg:block">
+          <img src="/images/stylish_double_c.png" alt="stylish double c" />
+        </div>
+        <div className="mt-[1.25rem] md:mt-[0]">
+          <div className="flex gap-2">
+            <p className="text-[1.75rem] md:text-[3.625rem] text-white font-[600]">
+              Let&apos;s
+            </p>
+            <img
+              src="/images/arrow_purple_button.png"
+              alt="arrow purple button"
+            />
+          </div>
+          <div className="text-[1.75rem] md:text-[3.625rem] text-white font-[600]">
+            Work Together
+          </div>
+        </div>
+      </section>
+      <section className="flex w-full mt-[2.5rem] md:mt-0">
+        <img
+          src="/images/hero_marquee.png"
+          className="hidden md:block "
+          alt="photography category list"
         />
-      </div>
+        <img
+          src="/images/hero_marquee_small.png"
+          className="block md:hidden grow"
+          alt="photography category list"
+        />
+      </section>
+      <section className="flex w-full  md:px-[6rem]">
+        <img
+          src="/images/hero.png"
+          className="hidden md:block grow"
+          alt="photography category list"
+        />
+        <img
+          src="/images/hero_small.png"
+          className="block md:hidden grow"
+          alt="photography category list"
+        />
+      </section>
     </section>
   );
 }

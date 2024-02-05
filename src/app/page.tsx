@@ -1,36 +1,30 @@
-"use client";
-
-import { useEffect } from "react";
 import NavBar from "@/components/common/NavBar";
+import AboutSection from "@/components/sections/AboutSection";
+import FaqSection from "@/components/sections/FaqSection";
 import FooterSection from "@/components/sections/FooterSection";
-import GetStartedSection from "@/components/sections/GetStartedSection";
 import HeroSection from "@/components/sections/HeroSection";
-import LogoGroupSection from "@/components/sections/LogoGroupSection";
-import RemarkSection from "@/components/sections/RemarkSection";
-import WeShipSection from "@/components/sections/WeShipSection";
-import WhatsImportantSection from "@/components/sections/WhatImportantSection";
-import Lenis from "@studio-freight/lenis";
+import LargeTextSection from "@/components/sections/LargeTextSection";
+import PortfolioSection from "@/components/sections/PortfolioSection";
+import ServiceSection from "@/components/sections/ServiceSection";
+import TestimonialSection from "@/components/sections/TestimonialSection";
 
 export default function Home() {
-  useEffect(() => {
-    const lenis = new Lenis();
-    function raf(time: any) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-    requestAnimationFrame(raf);
-  }, []);
-
   return (
-    <main>
+    <main className="bg-background">
       <NavBar />
-      <HeroSection />
-      <LogoGroupSection />
-      <WhatsImportantSection />
-      <RemarkSection />
-      <WeShipSection />
-      <GetStartedSection />
-      <FooterSection />
+      <div className="pt-[10rem] lg:pt-0">
+        <HeroSection />
+        <div className="px-4 md:px-[6rem] flex flex-col gap-[5rem] md:gap-[12.5rem] mt-[5rem] md:mt-[12.5rem]">
+          <AboutSection />
+          <ServiceSection />
+          <PortfolioSection />
+          <FaqSection />
+          <TestimonialSection />
+        </div>
+
+        <LargeTextSection />
+        <FooterSection />
+      </div>
     </main>
   );
 }
