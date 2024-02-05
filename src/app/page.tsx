@@ -1,36 +1,25 @@
-"use client";
-
-import { useEffect } from "react";
 import NavBar from "@/components/common/NavBar";
+import FirstFeatureSection from "@/components/sections/FirstFeatureSection";
 import FooterSection from "@/components/sections/FooterSection";
-import GetStartedSection from "@/components/sections/GetStartedSection";
 import HeroSection from "@/components/sections/HeroSection";
-import LogoGroupSection from "@/components/sections/LogoGroupSection";
-import RemarkSection from "@/components/sections/RemarkSection";
-import WeShipSection from "@/components/sections/WeShipSection";
-import WhatsImportantSection from "@/components/sections/WhatImportantSection";
-import Lenis from "@studio-freight/lenis";
+import SecondFeatureSection from "@/components/sections/SecondFeatureSection";
+import SupportSection from "@/components/sections/SupportSection";
+import TestimonialSection from "@/components/sections/TestimonialSection";
 
 export default function Home() {
-  useEffect(() => {
-    const lenis = new Lenis();
-    function raf(time: any) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-    requestAnimationFrame(raf);
-  }, []);
-
   return (
-    <main>
+    <main className="gradient">
       <NavBar />
-      <HeroSection />
-      <LogoGroupSection />
-      <WhatsImportantSection />
-      <RemarkSection />
-      <WeShipSection />
-      <GetStartedSection />
-      <FooterSection />
+      <div className="mx-4 md:mx-0 flex flex-col gap-16 md:gap-[10rem]">
+        <HeroSection />
+        <FirstFeatureSection />
+        <SecondFeatureSection />
+        <TestimonialSection />
+      </div>
+      <div className="flex flex-col mt-8">
+        <SupportSection />
+        <FooterSection />
+      </div>
     </main>
   );
 }

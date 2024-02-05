@@ -42,16 +42,16 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
     ref
   ) => {
     const propWidth =
-      width === "full_width" ? "w-full" : width ? width : "w-[100px]";
+      width === "full_width" ? "w-full" : width ? width : "w-[7.5rem]";
 
     const isSecondaryVariant = variant !== "primary";
 
     const size_height =
       size === "normal"
-        ? "h-[34px]"
+        ? "h-[2.9375rem]"
         : size === "large"
-        ? "h-[34px]"
-        : "h-[20px]";
+        ? "h-[3.75rem]"
+        : "h-[2.625rem]";
 
     const variant_hover =
       variant === "primary" ? "hover:bg-primary" : "hover:bg-secondary";

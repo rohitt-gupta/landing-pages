@@ -17,17 +17,7 @@ const config = {
         "2xl": "1400px",
       },
     },
-
     extend: {
-      colors: {
-          primary: "#7161EC",
-          customDark: "#0D0D0D",
-          customGray: "#B2B1B8"
-      },
-      backgroundImage:{
-        'hero-gradient': 'url(/images/hero_gradient.png)',
-        'radial': 'url(/images/ecclipse_radial.png)'
-      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -42,6 +32,17 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+
+      colors: {
+        primary: "#7854F7",
+        secondary: "#70C217",
+        customBlue: "#299EF3",
+        lightGray: "#272D4E",
+        lightGrayAlt: '#94A2B3'
+      },
+      fontSize: {
+        normal: "1.125rem"
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],

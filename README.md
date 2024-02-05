@@ -1,20 +1,22 @@
-# rise-landing-page
-An alternate rise landing page built with Next14, Shadcn, and Tailwind. Smooth scroll effect with Lenis.
+## Alternate woocommerce  landing page
+
+An alternate woocommerce landing page built with Next14, Shadcn, and Tailwind.
 
 # ☁️ Deployed link
-https://rise-landing-page.vercel.app/
+https://alternate-woo-commerce-landing-page.vercel.app/
 
 
-Youtube:  https://youtu.be/iEHbbCprtrw
+Youtube:  https://youtu.be/7GpnOkeiK7M
 
 
-Figma:  https://www.figma.com/file/rN2oZL4j6bZLe7uYbocDG6/Landing-page-UI-%E2%80%94-Rise-Calendar-%E2%80%94-Web-to-Figma-(Community)?node-id=3401%3A7681&mode=dev
+Figma:  https://www.figma.com/file/Wrcb4XWAWhrDCRlip4Fzpu/Woo-Landing-(Community)?type=design&node-id=0-1&mode=design&t=FCsWILcvbs6DqHAa-0
 
 # 💻 Desktop View
-![screencapture-localhost-3000-2024-02-04-05_23_44](https://github.com/PiusLucky/rise-landing-page/assets/32282934/9f26426d-5b50-445c-86f6-046cda542392)
+![screencapture-localhost-3000-2024-01-14-21_04_00](https://github.com/PiusLucky/alternate-woo-commerce-landing-page/assets/32282934/a129664e-eafb-43bb-840d-7eb85b8081fe)
+
 
 # 📱 Mobile View
-![screencapture-localhost-3000-2024-02-04-05_24_24](https://github.com/PiusLucky/rise-landing-page/assets/32282934/beec3e6a-ea1a-48e2-8a8b-8a105fb4188c)
+![screencapture-localhost-3000-2024-01-14-21_04_18](https://github.com/PiusLucky/alternate-woo-commerce-landing-page/assets/32282934/f1d49c33-2f2f-45b6-850b-33ccb41b9fc0)
 
 # ⛏️ Installation
 To follow along the tutorial. Change to the starter branch  after cloning the repo.
@@ -29,11 +31,14 @@ npm install && npm run dev
 - Typescript
 - Shadcn
 - Tailwind
-- Lenis
 
 ## 🔓 Benefits
 - Mobile Responsiveness
 - Learn all the stack in one video
+
+## Appreciation
+All thanks to ProduceUI on  figma community
+https://www.figma.com/@produce_ui
 
 ## Author
 Built with love ❤️ by Pius Lucky https://luckypius.netlify.app/
