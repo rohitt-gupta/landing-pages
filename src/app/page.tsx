@@ -1,36 +1,42 @@
-"use client";
-
-import { useEffect } from "react";
 import NavBar from "@/components/common/NavBar";
+import BookNextTripSection from "@/components/sections/BookNextTripSection";
+import CategorySection from "@/components/sections/CategorySection";
 import FooterSection from "@/components/sections/FooterSection";
-import GetStartedSection from "@/components/sections/GetStartedSection";
 import HeroSection from "@/components/sections/HeroSection";
 import LogoGroupSection from "@/components/sections/LogoGroupSection";
-import RemarkSection from "@/components/sections/RemarkSection";
-import WeShipSection from "@/components/sections/WeShipSection";
-import WhatsImportantSection from "@/components/sections/WhatImportantSection";
-import Lenis from "@studio-freight/lenis";
+import NewsLetterSection from "@/components/sections/NewsLetterSection";
+import TestimonialSection from "@/components/sections/TestimonialSection";
+import TopSellingSection from "@/components/sections/TopSellingSection";
 
 export default function Home() {
-  useEffect(() => {
-    const lenis = new Lenis();
-    function raf(time: any) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-    requestAnimationFrame(raf);
-  }, []);
-
   return (
-    <main>
+    <main className="relative poppins  md:px-[9rem]">
       <NavBar />
-      <HeroSection />
-      <LogoGroupSection />
-      <WhatsImportantSection />
-      <RemarkSection />
-      <WeShipSection />
-      <GetStartedSection />
-      <FooterSection />
+      <div className="px-4 flex flex-col gap-[7.69rem]">
+        <HeroSection />
+        <div className="absolute top-0 right-0 -z-10">
+          <img src="/images/blob-shape.png" alt="blob background shape" />
+        </div>
+        <div className="absolute top-0 left-0 -z-10">
+          <img
+            src="/images/top-left-gradient.png"
+            alt="blob background shape"
+          />
+        </div>
+        <div className="relative">
+          <CategorySection />
+          <div className="absolute top-0 right-0">
+            <img src="/images/plus-group.png" alt="blob background shape" />
+          </div>
+        </div>
+
+        <TopSellingSection />
+        <BookNextTripSection />
+        <TestimonialSection />
+        <LogoGroupSection />
+        <NewsLetterSection />
+        <FooterSection />
+      </div>
     </main>
   );
 }

@@ -1,20 +1,20 @@
-# rise-landing-page
-An alternate rise landing page built with Next14, Shadcn, and Tailwind. Smooth scroll effect with Lenis.
+# Travel-Agency-Landing-Page
+A Travel Agency Landing Page built with Next14, Shadcn, and Tailwind.
 
 # ☁️ Deployed link
-https://rise-landing-page.vercel.app/
+https://travel-agency-landing-page-zeta.vercel.app/
 
+Youtube:  https://youtu.be/psY6VQVcJRA
 
-Youtube:  https://youtu.be/iEHbbCprtrw
-
-
-Figma:  https://www.figma.com/file/rN2oZL4j6bZLe7uYbocDG6/Landing-page-UI-%E2%80%94-Rise-Calendar-%E2%80%94-Web-to-Figma-(Community)?node-id=3401%3A7681&mode=dev
+Figma: https://www.figma.com/file/p53sK0QS4IPLb864z3PFc0/Travel-Website-Landing-Page-(Community)?node-id=1%3A432&mode=dev
 
 # 💻 Desktop View
-![screencapture-localhost-3000-2024-02-04-05_23_44](https://github.com/PiusLucky/rise-landing-page/assets/32282934/9f26426d-5b50-445c-86f6-046cda542392)
+![screencapture-travel-agency-landing-page-zeta-vercel-app-2023-12-26-20_07_31](https://github.com/PiusLucky/Travel-Agency-Landing-Page/assets/32282934/5ea69783-d8f8-4088-8bc2-ef14b934e2d1)
+
 
 # 📱 Mobile View
-![screencapture-localhost-3000-2024-02-04-05_24_24](https://github.com/PiusLucky/rise-landing-page/assets/32282934/beec3e6a-ea1a-48e2-8a8b-8a105fb4188c)
+![screencapture-travel-agency-landing-page-zeta-vercel-app-2023-12-26-20_07_54](https://github.com/PiusLucky/Travel-Agency-Landing-Page/assets/32282934/a462d32d-3880-4c52-9031-21e6a84d71da)
+
 
 # ⛏️ Installation
 To follow along the tutorial. Change to the starter branch  after cloning the repo.
@@ -29,7 +29,6 @@ npm install && npm run dev
 - Typescript
 - Shadcn
 - Tailwind
-- Lenis
 
 ## 🔓 Benefits
 - Mobile Responsiveness
@@ -37,6 +36,5 @@ npm install && npm run dev
 
 ## Author
 Built with love ❤️ by Pius Lucky https://luckypius.netlify.app/
-
 
 
